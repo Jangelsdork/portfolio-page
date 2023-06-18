@@ -17,17 +17,11 @@ export default function Projects(){
                 img={"/colours.png"} 
                 link={"https://github.com/Jangelsdork/shopping-cart"}/>
             <ProjectCard 
-                name="Colours - the Chroma-Tique" 
-                description={"Welcome to Colours, your one-stop online shop for all your colourful needs! Our vibrant virtual store was meticulously crafted as an exemplary React project, showcasing the seamless fusion of design and functionality."} 
+                name="Colour Conundrum" 
+                description={"An exercise in React state - a simple memory game where one must avoid clicking the same colour twice"} 
                 techs={""}
-                img={"/colours.png"} 
-                link={"https://github.com/Jangelsdork/shopping-cart"}/>
-            <ProjectCard 
-                name="Colours - the Chroma-Tique" 
-                description={"Welcome to Colours, your one-stop online shop for all your colourful needs! Our vibrant virtual store was meticulously crafted as an exemplary React project, showcasing the seamless fusion of design and functionality."} 
-                techs={""}
-                img={"/colours.png"} 
-                link={"https://github.com/Jangelsdork/shopping-cart"}/>
+                img={"/memory.png"} 
+                link={"https://github.com/Jangelsdork/memory-game"}/>
         </div>
     )
 }

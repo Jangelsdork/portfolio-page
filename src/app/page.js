@@ -1,8 +1,14 @@
+'use client';'use client';
+
 import styles from './page.module.css'
 import Home from './Home'
 import Link from 'next/link'
 import About from './About'
 import Projects from './Projects'
+import Contact from './Contact'
+
+
+
 
 export default function Page() {
   return (
@@ -16,6 +22,7 @@ export default function Page() {
       <Home />
       <About />
       <Projects />
+      <Contact />
       <div className="projects"></div>
       <div className="contact"></div>
 
