@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+  --font-mono: 'ui-monospace', Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
@@ -46,30 +58,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
+ 
   }
 }
 
@@ -104,4 +93,132 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  position: fixed; 
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #6D67E4;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 80vh;
+  justify-content: center;
+  animation: fadeInAnimation ease 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+}
+
+
+
+.home-name {
+  font-size: 60px;
+  margin-bottom: 20px;
+  transition: font-size 1s, color 2s;
+}
+
+.home-job-title {
+  font-size: 40px;
+}
+
+.home-name:hover {
+  font-size: 62px;
+  color: #46C2CB;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 80vh;
+  justify-content: center;
+  animation: fadeInAnimation ease 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+}
+
+
+.about-avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin-right: 60px;
+}
+
+
+
+.about-container-content {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+}
+
+.about-logos{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 80vh;
+  justify-content: center;
+  animation: fadeInAnimation ease 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
 }
