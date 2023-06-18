@@ -18,6 +18,7 @@ export default function Home(){
                         <Image src="/HTML.png" alt="HTML" width="48" height="48" />
                         <Image src="/MYSQL-2.png" alt="MYSQL" width="48" height="48" />
                         <Image src="/REACT.png" alt="React" width="48" height="48" />
+                        <Image src="/github.png" alt="github" width="48" height="48" />
                      </div>
         </div>
     )

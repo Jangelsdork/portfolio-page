@@ -204,12 +204,15 @@ a {
 
 .projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 60px;
   margin-left: 20vw;
   margin-right: 20vw;
   height: 80vh;
   justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
   animation: fadeInAnimation ease 4s;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
@@ -221,4 +224,56 @@ a {
             100% {
                 opacity: 1;
             }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: 500px;
+  text-align: center;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  padding: 40px;
+  transition: background-color 0.5s, width .2s;
+}
+
+.card-title {
+  font-size: xx-large;
+  color: #F2F7A1;
+  margin-bottom: 20px;
+  transition: width 1s;
+
+}
+
+.card-img {
+  width: 400px; 
+  height: auto; 
+  max-height: 250px;
+  object-fit: cover;
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+
+}
+
+.project-card:hover {
+  background-color: #6D67E4;
+}
+
+.card-link:hover {
+  color: #46C2CB;
+}
+
+.card-link {
+  font-size: large;
+  font-weight: ;
+}
+
+.card-links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
