@@ -1,5 +1,7 @@
 'use client';
 
+import Head from 'next/head';
+import Image from 'next/image'
 import Link from 'next/link'
 import Home from './Home'
 import About from './About'
@@ -11,7 +13,9 @@ import Contact from './Contact'
 
 export default function Page() {
   return (
+    
     <div>
+      <Head><title>Mangelsdev</title></Head>
       <div className='nav-bar'>
         <Link href="#home"  className='nav-item'>Home</Link>
         <Link href="#about"  className='nav-item'>About</Link>
@@ -22,7 +26,13 @@ export default function Page() {
       <About />
       <Projects />
       <Contact />
-      <div className='footer'>footer</div>
+      <div className='footer'>
+        <div> Website design by Jack Mangelsdorf</div>
+        <Link href="https://www.linkedin.com/in/jack-mangelsdorf-77338ba1/"><Image src="/linkedin.png" alt="linkedin" width="48" height="48" /></Link>
+        <Image src="/github.png" alt="linkedin" width="48" height="48" />
+
+      </div>
+
 
     
     </div>

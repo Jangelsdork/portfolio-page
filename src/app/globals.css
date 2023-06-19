@@ -292,7 +292,8 @@ a {
   margin: 60px;
   margin-left: 20vw;
   margin-right: 20vw;
-  height: 80vh;
+  margin-top: 60px;
+  min-height: 80vh;
   justify-content: center;
   align-items: center;
   animation: fadeInAnimation ease 4s;
@@ -341,19 +342,28 @@ button {
   flex-direction: column;
   justify-content: space-around;
   margin-top: 20px;
+  color: #F2F7A1;
 }
 
 input, textarea {
   background-color: transparent;
-  border: 2px solid ;
-  margin: 20px;
+  border: 2px solid #F2F7A1 ;
+  margin-top: 10px;
   padding: 20px;
 }
+/* input, textarea:hover {
+  background-color: grey;
+} */
 
 .emailButtons {
   display: flex;
   gap: 8px;
   margin: 4px;
+}
+
+button:hover {
+  background-color:#6D67E4;
+  cursor: pointer;
 }
 
 .footer {
@@ -362,6 +372,12 @@ input, textarea {
   width: 100%;
   background-color: #453C67;
   color: white;
-  text-align: center;
+  text-align: right;
   max-height: 300px;
+  padding: 20px;
+}
+
+input:hover, textarea:hover {
+  background-color: rgb(29, 29, 29);
+  color: #F2F7A1;
 }
