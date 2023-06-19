@@ -23,7 +23,7 @@ export default function Form() {
         
             <div className="form-block">
             <label for="fc-generated-1-message">Your message</label>
-            <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
+            <textarea name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
             </div>
         
             <div className="form-block">  
