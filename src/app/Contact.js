@@ -12,16 +12,24 @@ function handleClick(){
 
 function ContactForm(){
     if(clicked){
+
         return(
             <Form />
         )
     }
+    return <div></div>
 }
 
 function Close(){
     if(clicked){
-        return <button className="closeButton">X</button>
+        return <button onClick={handleClose} className="closeButton">X</button>
     }
+
+}
+
+function handleClose(){
+    console.log("clicked")
+    setClicked(false)
 }
 
     return (

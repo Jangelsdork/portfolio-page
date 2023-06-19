@@ -23,8 +23,7 @@ export default function Page() {
       <About />
       <Projects />
       <Contact />
-      <div className="projects"></div>
-      <div className="contact"></div>
+      <div className='footer'>footer</div>
 
     
     </div>

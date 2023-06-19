@@ -277,13 +277,13 @@ a {
   justify-content: center;
 }
 
-/* .blob {
+.blob {
   transition: all 0.3s ease 0s;
   height: 60vh;
   width: auto;
   z-index: auto;
   margin-left: 500px;
-} */
+}
 
 
 .contact-container {
@@ -346,9 +346,22 @@ button {
 input, textarea {
   background-color: transparent;
   border: 2px solid ;
-  padding:20px
+  margin: 20px;
+  padding: 20px;
 }
 
 .emailButtons {
+  display: flex;
+  gap: 8px;
   margin: 4px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #453C67;
+  color: white;
+  text-align: center;
+  max-height: 300px;
 }
