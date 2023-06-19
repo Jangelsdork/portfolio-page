@@ -1,8 +1,7 @@
-'use client';'use client';
+'use client';
 
-import styles from './page.module.css'
-import Home from './Home'
 import Link from 'next/link'
+import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'

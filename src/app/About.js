@@ -5,9 +5,9 @@ export default function Home(){
         <div id="about" className="about-container">
             <div className="about-container-content"> 
                 <Image className="about-avatar" src="/jack.jpg" alt="Jack Mangelsdorf" width="300" height="300" />
-                <div className="about-text">Welcome to my little corner of the internet! I'm an aspiring full stack developer with a passion for coding, building bikes, and everything in between. Hailing from the seaside city of Sydney, I've made my way to Berlin where I am building full-stack web apps to solve every-day problems. 
+                <div className="about-text">Welcome to my little corner of the internet! I&apos;m an aspiring full stack developer with a passion for coding, building bikes, and everything in between. Hailing from the seaside city of Sydney, I&apos;ve made my way to Berlin where I am building full-stack web apps to solve every-day problems. 
                 <br></br><br></br>
-                    I'm now ready to take these skills into a professional setting and continue to build upon them with the right company. 
+                    I&apos;m now ready to take these skills into a professional setting and continue to build upon them with the right company. 
                 <br></br><br></br>
                     Beyond the code, I am a lover of AFL football and the Sydney Swans, as well as cycling and generally being outdoors.
                      </div>
