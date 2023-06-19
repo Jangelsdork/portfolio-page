@@ -27,9 +27,9 @@ export default function Page() {
       <Projects />
       <Contact />
       <div className='footer'>
-        <div> Website design by Jack Mangelsdorf</div>
+        <div> Website design by Jack Hespe Mangelsdorf</div>
         <Link href="https://www.linkedin.com/in/jack-mangelsdorf-77338ba1/"><Image src="/linkedin.png" alt="linkedin" width="48" height="48" /></Link>
-        <Image src="/github.png" alt="linkedin" width="48" height="48" />
+        <Link href="https://github.com/Jangelsdork/"><Image src="/github.png" alt="linkedin" width="48" height="48" /></Link>
 
       </div>
 
