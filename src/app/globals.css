@@ -296,6 +296,7 @@ a {
   min-height: 80vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
   animation: fadeInAnimation ease 4s;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
@@ -432,5 +433,19 @@ input:hover, textarea:hover {
   .icon {
     max-width: 30px;
     max-height: 30px;
+  }
+
+  .footer{
+    max-height: 15vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-icon {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 8px;
   }
 }
