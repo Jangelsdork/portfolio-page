@@ -314,7 +314,7 @@ a {
   color: #F2F7A1 ;
 }
 
-button {
+button, .submit-button {
   color: #F2F7A1;
   font-size: large;
   background-color: transparent;
@@ -361,7 +361,7 @@ input, textarea {
   margin: 4px;
 }
 
-button:hover {
+.submit-button:hover, button:hover {
   background-color:#6D67E4;
   cursor: pointer;
 }
@@ -380,6 +380,11 @@ button:hover {
 input:hover, textarea:hover {
   background-color: rgb(29, 29, 29);
   color: #F2F7A1;
+}
+
+.dialogue-form {
+  margin: 10px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
