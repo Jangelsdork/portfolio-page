@@ -448,4 +448,7 @@ input:hover, textarea:hover {
     max-height: 30px;
     margin: 8px;
   }
+  .home-name:hover{
+    font-size: larger;
+  }
 }
