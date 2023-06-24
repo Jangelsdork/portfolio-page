@@ -13,12 +13,12 @@ export default function Home(){
                      </div>
             </div>
             <div className="about-logos">
-                        <Image src="/icons8-javascript-48.png" alt="JS" width="48" height="48" />
-                        <Image src="/CSS.png" alt="CSS" width="48" height="48" />
-                        <Image src="/HTML.png" alt="HTML" width="48" height="48" />
-                        <Image src="/MYSQL-2.png" alt="MYSQL" width="48" height="48" />
-                        <Image src="/REACT.png" alt="React" width="48" height="48" />
-                        <Image src="/github.png" alt="github" width="48" height="48" />
+                        <Image className="icon" src="/icons8-javascript-48.png" alt="JS" width="48" height="48" />
+                        <Image className="icon" src="/CSS.png" alt="CSS" width="48" height="48" />
+                        <Image className="icon" src="/HTML.png" alt="HTML" width="48" height="48" />
+                        <Image className="icon" src="/MYSQL-2.png" alt="MYSQL" width="48" height="48" />
+                        <Image className="icon" src="/REACT.png" alt="React" width="48" height="48" />
+                        <Image className="icon" src="/github.png" alt="github" width="48" height="48" />
                      </div>
         </div>
     )

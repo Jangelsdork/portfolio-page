@@ -423,4 +423,9 @@ input:hover, textarea:hover {
   .form-block {
     align-items: center;
   }
+
+  .icon {
+    max-width: 30px;
+    max-height: 30px;
+  }
 }
