@@ -11,12 +11,12 @@ export default function Projects(){
                 link={"https://github.com/Jangelsdork/blacklist-nextjs"}
                 linkLive={"https://blacklist-nextjs.vercel.app/"}/>
             <ProjectCard 
-                name="Colours - the Chroma-Tique" 
-                description={"Welcome to Colours, your one-stop online shop for all your colourful needs! Our vibrant virtual store was meticulously crafted as an exemplary React project, showcasing the seamless fusion of design and functionality."} 
+                name="AFL Score Keeping Tool" 
+                description={"Australian Rules Football is a game with an atypical scoring system, with major and minor scores. Most teams also tend to keep diligent stats on goal kicker. I created this app after suffering through a game of punching numbers and quick notes into my phone, only to find at the end of the game that none of the notes match with the other umpires. It was also an opportunity to pracitce and familiarise myself with Typescript and Tailwind"} 
                 techs={""}
-                img={"/colours.png"} 
-                link={"https://github.com/Jangelsdork/shopping-cart"}
-                linkLive={"https://jangelsdork.github.io/shopping-cart/"}
+                img={"/Scorekeeper.png"} 
+                link={"https://github.com/Jangelsdork/afl-scorer"}
+                linkLive={"https://afl-scorer.vercel.app/"}
                 />
                 
             <ProjectCard 
