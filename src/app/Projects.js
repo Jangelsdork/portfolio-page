@@ -4,6 +4,14 @@ export default function Projects(){
     return (
         <div id="projects"className="projects-container">
             <ProjectCard 
+                name="Exercise finder" 
+                description={"This simple app helps you quickly and easily find new exercises for your strength workouts. The app queries the wger exercise database REST API An exercise in React state - a simple memory game where one must avoid clicking the same colour twice."} 
+                techs={""}
+                img={"/exercise-app.png"} 
+                link={"https://github.com/Jangelsdork/exercise-app"}
+                linkLive={"https://exercise-app-flax.vercel.app/"}
+                />
+            <ProjectCard 
                 name="European Booking Agencies Incident Report Register" 
                 description={"A work-in-progress for the European Music Booking Agencies association to register bad actors in the industry. The platform allows approved persons to add incident reports, as well as search existing reports. Built with React, it utilises a PlanetScale (MySQL) database & Clerk authentication."} 
                 techs={""}
@@ -17,15 +25,6 @@ export default function Projects(){
                 img={"/Scorekeeper.png"} 
                 link={"https://github.com/Jangelsdork/afl-scorer"}
                 linkLive={"https://afl-scorer.vercel.app/"}
-                />
-                
-            <ProjectCard 
-                name="Colour Conundrum" 
-                description={"An exercise in React state - a simple memory game where one must avoid clicking the same colour twice."} 
-                techs={""}
-                img={"/memory.png"} 
-                link={"https://github.com/Jangelsdork/memory-game"}
-                linkLive={"https://jangelsdork.github.io/memory-game/"}
                 />
         </div>
     )
