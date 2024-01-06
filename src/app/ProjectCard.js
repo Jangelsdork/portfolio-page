@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Projects( { name, description, techs, img, link, linkLive } ){
 
-    function LinkLive(props) {
+    function LinkLive() {
         if(linkLive) {
             return <Link className="card-link" href={linkLive}>Live //&nbsp;</Link>
         }
