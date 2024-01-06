@@ -9,7 +9,7 @@ export default function Projects(){
                 techs={""}
                 img={"/reservation.png"} 
                 link={"https://github.com/Jangelsdork/reservation-app-guest"}
-                linkLive={"https://reservation-app-guest-34h9.vercel.app/"}
+                linkLive={"https://reservation-app-guest.vercel.app/"}
                 />
                  <ProjectCard 
                 name="Bar Landing Page" 
