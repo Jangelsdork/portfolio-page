@@ -14,7 +14,7 @@ export default function Projects( { name, description, techs, img, link, linkLiv
             <div className="card-title">{name}</div>
             <div className="card-description">{description}</div>
             <div className="card-tech">{techs}</div>
-            <Image className="card-img" unoptimized={true} src={img} alt="screengrab of colours" height={416} width={604}></Image>
+            <Image className="card-img" unoptimized={true} src={img} alt="website sample image" height={416} width={604}></Image>
            <div className="card-links">
                 <LinkLive />
                 <Link className="card-link" href={link}>Github</Link>

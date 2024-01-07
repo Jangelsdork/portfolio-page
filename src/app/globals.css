@@ -229,7 +229,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   max-width: 500px;
   text-align: center;
   background-color: rgb(48, 48, 48);
