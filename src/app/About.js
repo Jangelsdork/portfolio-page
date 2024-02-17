@@ -10,8 +10,7 @@ export default function Home(){
                 <br></br><br></br>
                 Hailing from the seaside city of Sydney, I&apos;ve made my way to Berlin where I am building full-stack web apps to solve every-day problems. 
                 <br></br><br></br>
-                    I&apos;m ready to feed my curiousity and build my skills with the right company. 
-                <br></br><br></br>
+            
                     Beyond the code, you&apos;ll find me on weekends playing footy with the Berlin Crocs, out on the bike, or outdoors somewhere having a paddle.
                      </div>
             </div>
