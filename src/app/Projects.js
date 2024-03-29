@@ -9,7 +9,7 @@ export default function Projects(){
                 techs={""}
                 img={"/q1e2.png"} 
                 link={"https://github.com/Jangelsdork/q1e2-website"}
-                linkLive={"https://q1e2-website.vercel.app/"}
+                linkLive={"https://q1e2.nl/"}
                 />
                  <ProjectCard 
                 name="Bar Landing Page" 
